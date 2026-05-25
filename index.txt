@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marina Vianna | Nutrição Intestinal & Saúde Integrativa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+          colors: {
+            marina: {
+              bg: '#fbfbfa', /* Off-White Orgânico */
+              card: '#f4f4f0', /* Areia Suave */
+              brand: '#556b2f', /* Verde Oliva Premium */
+              brandHover: '#3d4f21',
+              accent: '#8fbc8f', /* Verde Sálvia */
+              text: '#2d312e', /* Grafite Confortável */
+              muted: '#6b7280'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+    .reveal.active { opacity: 1; transform: translateY(0); }
+    .text-gradient { background: linear-gradient(to right, #556b2f, #8fbc8f); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="bg-marina-bg text-marina-text font-sans antialiased selection:bg-marina-brand/10 selection:text-marina-brand">
+
+  <header class="fixed top-0 w-full z-50 bg-marina-bg/80 backdrop-blur-md border-b border-marina-brand/5">
+    <div class="max-w-7xl mx-auto px-6 sm:px-12 h-24 flex items-center justify-between">
+      <div class="text-xl font-bold tracking-tight text-marina-text">
+        Marina Vianna <span class="text-marina-accent text-xs block font-medium tracking-wider normal-case">Nutrição Intestinal ®</span>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=5548984515808&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20sua%20consulta." target="_blank" class="bg-marina-brand hover:bg-marina-brandHover text-white text-xs sm:text-sm font-semibold px-6 py-3 rounded-full tracking-wide transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-sm">
+        Agendar Consulta
+      </a>
+    </div>
+  </header>
+
+  <section class="pt-40 pb-24 px-6 max-w-7xl mx-auto min-h-screen flex flex-col justify-center items-center">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center w-full">
+      
+      <div class="reveal active text-center lg:text-left">
+        <span class="inline-block bg-marina-brand/5 text-marina-brand border border-marina-brand/10 text-xs sm:text-sm font-medium tracking-wider px-5 py-2 rounded-full mb-8">
+          Mestranda em Microbiota Intestinal
+        </span>
+        
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-marina-text leading-tight mb-8">
+          Trate o seu intestino <span class="text-gradient block">de forma descomplicada.</span>
+        </h1>
+        
+        <p class="text-marina-muted text-lg sm:text-xl mb-12 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+          Estufamento, má digestão, cansaço constante e oscilações de humor não são normais. Recupere a sua leveza e saúde integrativa através de uma <strong class="text-marina-brand font-semibold">estratégia nutricional focada na sua microbiota</strong>.
+        </p>
+        
+        <div class="mb-8 lg:mb-0">
+          <a href="https://api.whatsapp.com/send?phone=5548984515808&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20sua%20consulta." target="_blank" class="inline-flex items-center justify-center w-full sm:w-auto gap-3 bg-marina-brand hover:bg-marina-brandHover text-white font-semibold text-base tracking-wide px-10 py-5 rounded-full shadow-lg shadow-marina-brand/10 transition-all duration-300 transform hover:-translate-y-0.5">
+            <i data-lucide="sparkles" class="w-5 h-5"></i> Começar Minha Transformação
+          </a>
+        </div>
+      </div>
+
+      <div class="reveal active flex justify-center lg:justify-end mb-10 lg:mb-0">
+        <div class="relative inline-block">
+          <div class="absolute inset-0 bg-marina-accent/10 rounded-full blur-2xl pointer-events-none"></div>
+          <img 
+            src="marina-vianna.webp" 
+            alt="Dra. Marina Vianna" 
+            class="relative mx-auto w-64 h-64 sm:w-80 sm:h-80 lg:w-[420px] lg:h-[420px] rounded-full object-cover border-8 border-white shadow-xl transition-transform duration-500 hover:scale-102"
+          />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="py-32 px-6 bg-marina-card border-y border-marina-brand/5">
+    <div class="max-w-6xl mx-auto text-center">
+      <div class="reveal max-w-2xl mx-auto mb-20">
+        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight mb-6">
+          Sua saúde começa e termina <span class="text-marina-brand">no seu intestino.</span>
+        </h2>
+        <p class="text-marina-muted text-lg leading-relaxed">
+          O intestino é o nosso segundo cérebro. Quando ele está em desequilíbrio, todo o resto do seu corpo reage com sinais claros de inflamação.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+        <div class="reveal bg-marina-bg p-10 rounded-2xl border border-marina-brand/5 shadow-sm group hover:border-marina-accent/40 transition-all">
+          <div class="w-12 h-12 rounded-full bg-marina-accent/10 text-marina-brand flex items-center justify-center mb-6">
+            <i data-lucide="activity" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-marina-text">Estufamento e Gases</h3>
+          <p class="text-marina-muted leading-relaxed">Sensação de estufamento abdominal logo após comer, peso gástrico e desconforto que estragam o seu dia.</p>
+        </div>
+
+        <div class="reveal bg-marina-bg p-10 rounded-2xl border border-marina-brand/5 shadow-sm group hover:border-marina-accent/40 transition-all">
+          <div class="w-12 h-12 rounded-full bg-marina-accent/10 text-marina-brand flex items-center justify-center mb-6">
+            <i data-lucide="shield-alert" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-marina-text">Inconstância e Inflamação</h3>
+          <p class="text-marina-muted leading-relaxed">Oscilar entre dias de intestino preso ou solto demais. Isso sabota a absorção de nutrientes vitais.</p>
+        </div>
+
+        <div class="reveal bg-marina-bg p-10 rounded-2xl border border-marina-brand/5 shadow-sm group hover:border-marina-accent/40 transition-all">
+          <div class="w-12 h-12 rounded-lg bg-marina-accent/10 text-marina-brand flex items-center justify-center mb-6">
+            <i data-lucide="battery-warning" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-marina-text">Cansaço e Baixa Imunidade</h3>
+          <p class="text-marina-muted leading-relaxed">Acordar cansada mesmo dormindo bem. Uma microbiota desregulada afeta diretamente sua energia e foco.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-32 px-6 max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      
+      <div class="reveal order-2 md:order-1 bg-marina-card p-10 sm:p-12 rounded-2xl border border-marina-brand/5 shadow-sm relative overflow-hidden">
+        <h4 class="text-xl font-bold mb-8 text-marina-brand">O Tratamento Conduzido</h4>
+        <ul class="space-y-6">
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-marina-brand text-white rounded-full p-1"><i data-lucide="check" class="w-3. h-3 text-white"></i></div>
+            <p class="text-marina-text/90"><strong>Modulação da Microbiota:</strong> Estratégias práticas e científicas para repovoar seu intestino com bactérias benéficas.</p>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-marina-brand text-white rounded-full p-1"><i data-lucide="check" class="w-3. h-3 text-white"></i></div>
+            <p class="text-marina-text/90"><strong>Rotina Sem Restrições Loucas:</strong> Substituições inteligentes que desinflamam o corpo sem tirar o prazer de comer.</p>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-marina-brand text-white rounded-full p-1"><i data-lucide="check" class="w-3. h-3 text-white"></i></div>
+            <p class="text-marina-text/90"><strong>Acompanhamento Exclusivo:</strong> Protocolo personalizado (Presencial ou Online) focado no alívio de sintomas desde as primeiras semanas.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="order-1 md:order-2 space-y-8">
+        <div class="reveal">
+          <h2 class="text-3xl sm:text-4xl font-bold tracking-tight mb-6">
+            Ciência de ponta para devolver o <span class="text-gradient">seu bem-estar.</span>
+          </h2>
+          <p class="text-marina-muted text-lg leading-relaxed">
+            Como mestranda na área, estudo diariamente os impactos clínicos do trato gastrointestinal. Meu objetivo não é te passar uma dieta engessada de gaveta, mas sim restabelecer a harmonia do seu organismo para que você viva com leveza, energia e liberdade.
+          </p>
+        </div>
+        
+        <div class="reveal flex gap-5 items-start">
+          <div class="w-12 h-12 rounded-full bg-marina-brand/5 text-marina-brand flex items-center justify-center shrink-0">
+            <i data-lucide="heart" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-1 text-marina-text">Saúde de Dentro para Fora</h3>
+            <p class="text-marina-muted text-sm sm:text-base">Melhore sua pele, regule sua saciedade natural, reduza a inflamação sistêmica e conquiste mais vitalidade.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-32 px-6 bg-marina-card text-center border-t border-marina-brand/5">
+    <div class="reveal max-w-3xl mx-auto">
+      <h2 class="text-3xl sm:text-5xl font-bold tracking-tight mb-8 leading-tight">
+        Viva sem desconfortos. <span class="text-marina-brand">Recupere sua leveza.</span>
+      </h2>
+      <p class="text-marina-muted text-lg sm:text-xl mb-12 leading-relaxed">
+        Chega de aceitar conviver com a queimação ou o abdômen estufado. Agende sua consulta no WhatsApp e tenha acesso ao seu plano personalizado de modulação intestinal.
+      </p>
+
+      <div class="flex flex-col items-center gap-4">
+        <a href="https://api.whatsapp.com/send?phone=5548984515808&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20sua%20consulta." target="_blank" class="inline-flex items-center gap-3 bg-marina-brand hover:bg-marina-brandHover text-white font-semibold text-base tracking-wide px-12 py-5 rounded-full shadow-lg shadow-marina-brand/10 transition-all duration-300 transform hover:-translate-y-0.5">
+          <i data-lucide="message-circle" class="w-5 h-5"></i> Agendar Consulta no WhatsApp
+        </a>
+        <div class="flex items-center gap-2 text-marina-brand text-xs uppercase tracking-wider font-semibold mt-2">
+          <span class="w-1.5 h-1.5 bg-marina-brand rounded-full animate-ping"></span>
+          Consultas Presenciais & Online Integrativo
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-12 text-center text-xs text-marina-muted bg-marina-bg border-t border-marina-brand/5">
+    <p>&copy; 2026 Marina Vianna | CRN10: 10422 | Nutrição Clínica Avançada & Microbiota</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+    
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { 
+        if(e.isIntersecting) { 
+          e.target.classList.add('active'); 
+          observer.unobserve(e.target); 
+        } 
+      });
+    }, { threshold: 0.1 });
+    
+    reveals.forEach(r => observer.observe(r));
+  </script>
+</body>
+</html>
